@@ -1,0 +1,15 @@
+.stack{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stack-pad{
+    padding: 0 15vw;
+}
+
+.stack-heading{
+    font-size: 6vw;
+    font-weight: 400;
+}
