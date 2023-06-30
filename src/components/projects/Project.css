@@ -1,0 +1,26 @@
+.project-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-padding{
+    padding: 0 15vw;
+}
+.project-padding h1 {
+    font-size: 6vw;
+    font-weight: 400;
+}
+.pro-container{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: .625vw;
+}
+
+.pro-img{
+    height: 35.1493848857645vh ;
+    width:100%;
+}
+.pro-desc{
+    height: 35.1493848857645vh
+}

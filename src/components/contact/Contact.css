@@ -1,0 +1,45 @@
+.contact-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-padding{
+    padding: 0 15vw;
+}
+
+.contact-map{
+    text-align: center;
+}
+.map-img{
+    /* border-radius: 50%; */
+    height:  52.72407732864675vh;
+    width: 23.4375vw;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label{
+    font-size: 3vw;
+}
+
+.contact-input{
+    height: 7.0298769771529vh;
+    font-size: 1.5vw;
+}
+
+.contact-textarea{
+    height: 17.029876977152vh;
+    margin-bottom: 1rem;
+    font-size: 1.5vw;
+}
+.contact-button{
+    background-color: #028482;
+    color: white;
+    font-size: 1.5vw;
+    border:none;
+}
