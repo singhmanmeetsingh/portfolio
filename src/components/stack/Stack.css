@@ -1,4 +1,6 @@
 .stack{
+    background-color: #028482;
+    color:white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,4 +14,20 @@
 .stack-heading{
     font-size: 6vw;
     font-weight: 400;
+}
+.stack-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 14.6484375vh;
+    weight: 5.859375vw;
+}
+
+img + img {
+    margin-left: 2rem;
+    margin-top: 1rem;
 }

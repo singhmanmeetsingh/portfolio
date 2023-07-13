@@ -8,6 +8,10 @@
 .contact-padding{
     padding: 0 15vw;
 }
+.contact-padding h1 {
+    font-size: 6vw;
+    font-weight: 400;
+}
 
 .contact-map{
     text-align: center;
@@ -30,11 +34,16 @@
 .contact-input{
     height: 7.0298769771529vh;
     font-size: 1.5vw;
+    padding: .390vw;
+    margin-top: 1.25vw;
+    margin-bottom: 1.25vw;
 }
 
 .contact-textarea{
     height: 17.029876977152vh;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25vw;
+    margin-top: 1.25vw;
+    padding: .390vw;
     font-size: 1.5vw;
 }
 .contact-button{
@@ -43,3 +52,47 @@
     font-size: 1.5vw;
     border:none;
 }
+
+.contact-socials{
+    margin-top:1.5625vw;
+    /* display: flex;
+    width: 100%;
+    flex-wrap: wrap; */
+    /* background-color: #028482; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-section{
+    /* width: 33.33%;
+    display: flex;
+    margin-bottom: 1.5vw; */
+    font-size: 1.5vw;
+    padding: 1px 0;
+    flex: 1;
+    text-align: center;
+    font-size: 4vw;
+
+}
+
+.contact-section img{
+    height: 3.5vw;
+}
+
+.contact-section a + a {
+    margin-left: 1.25vw;
+}
+
+@media (min-width: 768px){
+    .contact-socials {
+        flex-direction: row;
+    }
+
+    .contact-section{
+            font-size: 2vw;
+    }
+}
+
