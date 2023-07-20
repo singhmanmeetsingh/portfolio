@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
-import Git from "../../assets/git.svg";
-import Link from "../../assets/link.svg";
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
@@ -37,7 +35,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="contact-padding">
-        <h1>Contact And Socials</h1>
+        <h1>Hit Me Up</h1>
         <form ref={form} onSubmit={sendEmail} className="contact-form">
           <label className="contact-label">Name</label>
           <input className="contact-input" type="text" name="user_name" />
@@ -51,14 +49,6 @@ function Contact() {
             value="Send"
           />
         </form>
-        <div className="contact-socials">
-            <div className="contact-section">Tel : 705-241-1972</div>
-            <div className="contact-section">
-                <a href="https://github.com/singhmanmeetsingh" target="_blank"><img src={Git} alt="github"/></a>
-                <a href="https://www.linkedin.com/in/manmeet-singh-788ab2a4/" target="_blank"><img src={Link} alt="linkedin"/></a>
-            </div>
-            <div className="contact-section">Email : workmanmeet7@gmail.com</div>
-        </div>
       </div>
       <ToastContainer />
     </div>
